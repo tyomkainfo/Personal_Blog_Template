@@ -13,9 +13,17 @@ footer {
   padding-top: 59px;
   background-color: var(--footer-bg);
   .about_blog {
+
+
     img {
+      
       width: 100%;
 
+    }
+  }
+  .latest_tweets{
+    .footer_column_description{
+      margin-left: 25px;
     }
   }
 }
@@ -36,13 +44,17 @@ footer {
 }
 
 .footer_twitter_block {
+  font-size: 14px;
+  color: var(--footer-text-color);
   a {
+    padding-right: 10px;
+
     i {
       color: var(--footer-text-color);
-      font-size: 14px;
     }
   }
   span {
 
   }
+
 }

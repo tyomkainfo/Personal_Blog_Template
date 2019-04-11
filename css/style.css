@@ -37,6 +37,8 @@ footer {
   background-color: var(--footer-bg); }
   footer .about_blog img {
     width: 100%; }
+  footer .latest_tweets .footer_column_description {
+    margin-left: 25px; }
 
 .footer_column_title {
   font-size: 16px;
@@ -50,8 +52,12 @@ footer {
   font-size: 15px;
   margin-bottom: 0px; }
 
-.footer_twitter_block a i {
-  color: var(--footer-text-color);
-  font-size: 14px; }
+.footer_twitter_block {
+  font-size: 14px;
+  color: var(--footer-text-color); }
+  .footer_twitter_block a {
+    padding-right: 10px; }
+    .footer_twitter_block a i {
+      color: var(--footer-text-color); }
 
 /*# sourceMappingURL=style.css.map */
