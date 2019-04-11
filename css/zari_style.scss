@@ -3,7 +3,7 @@ $hind:'Hind', sans-serif;
 
 
 section{
-
+position: relative;
   .top_block{
     font-size: 347px;
     font-family: $montserrat;
@@ -19,7 +19,8 @@ section{
      font-family: $hind;
      color: rgb(33, 33, 33);
      text-transform: uppercase;
-     letter-spacing: 15px;
+     letter-spacing: 30px;
+     font-weight: bold;
      line-height: 1.2;
      text-align: center;
      position: absolute;
@@ -29,7 +30,6 @@ section{
      background-color: #ffffff;
      padding: 2px 38px 1px 38px;
      min-width: 900px;
-
-
    }
+
 }
