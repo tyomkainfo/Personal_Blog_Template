@@ -1,0 +1,43 @@
+{
+  "name": "vendor_name/package_name",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "author's name",
+      "email": "email@example.com"
+    }
+  ],
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  },
+  "require": {
+    "yiisoft/yii2-app-advanced": "*",
+    "yiisoft/yii2-jui": "*",
+    "yiisoft/yii2-debug": "*",
+    "yiisoft/yii2-bootstrap": "*",
+    "yiisoft/yii2-gii": "*",
+    "mihaildev/yii2-ckeditor": "*",
+    "mihaildev/yii2-elfinder": "*",
+    "linslin/yii2-curl": "*",
+    "nickcv/yii2-encrypter": "*",
+    "nodge/yii2-eauth": "*",
+    "uniqby/yii2-phone-formatter": "*",
+    "kartik-v/yii2-widget-alert": "*",
+    "kartik-v/yii2-widget-growl": "*",
+    "kartik-v/yii2-widget-select2": "*",
+    "kartik-v/yii2-widget-depdrop": "*",
+    "yiidoc/yii2-jwplayer": "dev-master",
+    "himiklab/yii2-recaptcha-widget": "*",
+    "bupy7/yii2-widget-cropbox": "*",
+    "demi/cropper": "*",
+    "tugmaks/yii2-google-maps": "dev-master",
+    "kartik-v/yii2-tabs-x": "1.2.x-dev",
+    "embed/embed": "2.5.1",
+    "wadeshuler/yii2-jwplayer": "1.0.0"
+  }
+}
