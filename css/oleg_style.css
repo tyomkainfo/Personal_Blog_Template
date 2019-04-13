@@ -1,103 +1,3 @@
-.page-wrap {
-  padding-top: 238px;
-  min-height: 100vh; }
-  .page-wrap .display-1 {
-    font-size: 375px;
-    font-family: "Montserrat", sans-serif;
-    color: #363636;
-    font-weight: bold;
-    line-height: 0.08; }
-  .page-wrap .block_found {
-    font-size: 16px;
-    font-family: "Montserrat", sans-serif;
-    color: #212121;
-    text-transform: uppercase;
-    letter-spacing: 22px;
-    font-weight: bold;
-    line-height: 1.2;
-    text-align: center;
-    z-index: 12;
-    background-color: #ffffff;
-    position: absolute;
-    left: 16%;
-    top: 13%;
-    width: 780px;
-    height: 20px; }
-  .page-wrap .navbar {
-    padding-top: 75px;
-    padding-bottom: 30px;
-    background-color: transparent;
-    border-radius: 0;
-    display: flex; }
-    .page-wrap .navbar .form-control {
-      border-radius: 0;
-      width: 600px; }
-    .page-wrap .navbar .btn {
-      width: 170px;
-      color: #ffffff;
-      font-weight: bold;
-      font-size: 14px;
-      font-family: "Montserrat", sans-serif;
-      line-height: 1.714;
-      border-radius: 0;
-      z-index: 12; }
-  .page-wrap .block_bottom h2 {
-    font-size: 30px;
-    font-family: "Montserrat", sans-serif;
-    color: #363636;
-    font-weight: bold;
-    line-height: 0.8; }
-  .page-wrap .block_bottom p {
-    color: #c6c6c7;
-    font-weight: bold;
-    font-size: 16px; }
-  .page-wrap .block_bottom a {
-    font-size: 14px;
-    font-weight: bold;
-    font-family: "Montserrat", sans-serif;
-    color: #363636;
-    line-height: 1.714;
-    text-decoration: none; }
-    .page-wrap .block_bottom a img {
-      margin-right: 10px; }
-
-:root {
-  --footer-bg: #212429;
-  --footer-text-color: #f9f9fb;
-  --footer-copyright-color: #ffffff;
-  --footer-bg-second-line: #17191c;
-  --montserrat: 'Montserrat', sans-serif;
-  --hind: 'Hind', sans-serif; }
-
-footer {
-  color: var(--footer-text-color);
-  padding-top: 59px;
-  background-color: var(--footer-bg); }
-  footer .about_blog img {
-    width: 100%; }
-  footer .latest_tweets .footer_column_description {
-    margin-left: 25px; }
-
-.footer_column_title {
-  font-size: 16px;
-  text-transform: uppercase;
-  font-family: var(--montserrat);
-  margin-bottom: 40px; }
-
-.footer_column_description {
-  line-height: 30px;
-  font-family: var(--hind);
-  font-size: 15px;
-  margin-bottom: 0px; }
-
-.footer_twitter_block {
-  font-size: 14px;
-  color: var(--footer-text-color); }
-  .footer_twitter_block a {
-    padding-right: 10px; }
-    .footer_twitter_block a i {
-      color: var(--footer-text-color); }
-
 a {
   text-decoration: none; }
   a:hover {
@@ -218,10 +118,6 @@ header .fix_head {
         header .fix_head .container .navigation .nb_left .nn_left .ni_left:last-child {
           margin-bottom: 20px; }
         header .fix_head .container .navigation .nb_left .nn_left .ni_left .nl_left {
-          font-family: 'Montserrat', serif;
-          font-size: 16px;
-          font-weight: 400;
-          letter-spacing: 1.1px;
           position: relative;
           margin: 10px 0 10px 25px;
           padding: 0;
@@ -327,4 +223,4 @@ header .indent {
   background: url("../images/slider_bg.png");
   background-size: contain; }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=oleg_style.css.map */
