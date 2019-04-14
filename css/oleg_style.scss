@@ -16,6 +16,27 @@
   url('../fonts/Hindbold.ttf') format('truetype'),
   url('../fonts/Hindbold.svg#Hindbold') format('svg');
 }
+@font-face {
+  font-family: 'Hindmedium';
+  src: url('../fonts/Hindmedium.eot');
+  src: url('../fonts/Hindmedium.eot') format('embedded-opentype'),
+  url('../fonts/Hindmedium.woff2') format('woff2'),
+  url('../fonts/Hindmedium.woff') format('woff'),
+  url('../fonts/Hindmedium.ttf') format('truetype'),
+  url('../fonts/Hindmedium.svg#Hindmedium') format('svg');
+}
+@font-face {
+  font-family: 'Hindlight';
+  src: url('../fonts/Hindlight.eot');
+  src: url('../fonts/Hindlight.eot') format('embedded-opentype'),
+  url('../fonts/Hindlight.woff2') format('woff2'),
+  url('../fonts/Hindlight.woff') format('woff'),
+  url('../fonts/Hindlight.ttf') format('truetype'),
+  url('../fonts/Hindlight.svg#Hindlight') format('svg');
+}
+
+:root{
+}
 
 @mixin min-screen($res){
   @media screen and (min-width: $res) {
@@ -41,7 +62,7 @@ a{
 .container{
   width: 100%;
   @include min-screen(1300px){
-    //max-width: 1560px;
+    max-width: 1560px;
     width: 100%;
   }
 }
@@ -354,7 +375,7 @@ header{
           }
           .sb-current{
             .sb-description {
-              top: 0;
+              top: 20px;
               bottom: 0;
               left: 100px;
               margin: auto;
@@ -377,7 +398,7 @@ header{
               p{
                 font: 18px "Hindsemibold";
                 color: white;
-                letter-spacing: 2px;
+                letter-spacing: 3px;
                 @include max-screen(991px){
                   font-size: 16px;
                 }
@@ -389,10 +410,11 @@ header{
               h2{
                 font: 40px/50px "Hindbold";
                 color: white;
-                letter-spacing: 1.4px;
+                letter-spacing: 5.5px;
                 @include max-screen(1199px){
                   font-size: 35px;
                   line-height: 45px;
+                  letter-spacing: 2px;
                 }
                 @include max-screen(991px){
                   font-size: 30px;
@@ -449,7 +471,7 @@ header{
           transform: rotate(180deg);
           justify-content: space-between;
           @include max-screen(1199px){
-            height: 200px;
+            height: 240px;
           }
           @include max-screen(991px){
             height: 200px;
@@ -484,7 +506,7 @@ header{
             font-weight: bold;
             padding: 0;
             margin: 0;
-            letter-spacing: 2px;
+            letter-spacing: 4px;
             -webkit-writing-mode: vertical-lr;
             writing-mode: vertical-lr; //for Mozila
             @include max-screen(991px){
@@ -527,3 +549,124 @@ header{
     }
   }
 }
+
+.authorization{
+  .container{
+    .row{
+      margin: 0;
+      border: solid 1px #f5f5f7;
+      background-color: #f7f7f7;
+      @include max-screen(767px){
+        border: none;
+      }
+      form{
+        padding: 0 15px;
+        margin: 28px 0 24px!important;
+        @include max-screen(991px){
+          margin: 15px 0!important;
+        }
+        @include max-screen(767px){
+          flex-direction: column;
+          padding: 0;
+        }
+        p{
+          font: 20px/28px 'Montserrat';
+          max-width: 200px;
+          letter-spacing: 3.3px;
+          width: 100%;
+          margin: -8px 15px 0;
+          @include max-screen(1199px){
+            font-size: 18px;
+            line-height: 26px;
+            margin: -3px 0 0;
+          }
+          @include max-screen(991px){
+            font-size: 12px;
+            line-height: 18px;
+            letter-spacing: 1.5px;
+            margin: 0;
+          }
+          @include max-screen(767px){
+            max-width: 100%;
+            text-align: center;
+          }
+        }
+        input{
+          position: relative;
+          font: 15px/28px 'Hindlight';
+          letter-spacing: 2px;
+          max-width: 448px;
+          width: 100%;
+          height: 48px;
+          margin: 0 15px;
+          box-shadow: 0 0 5px 1px #f3f3f3;
+          padding-left: 30px;
+          border-radius: 0;
+          outline: none;
+          border: none;
+          border-bottom: solid 2px transparent;
+          @include max-screen(991px){
+            font-size: 10px;
+            height: 35px;
+            letter-spacing: 1px;
+            padding-left: 15px;
+            margin: 0 10px;
+          }
+          @include max-screen(767px){
+            width: 100%;
+            margin: 5px 0;
+            height: 25px;
+          }
+          &:focus{
+            border-bottom: solid 2px #212429;
+            transition: 0.5s;
+          }
+        }
+        button{
+          max-width: 280px;
+          width: 100%;
+          height: 48px;
+          margin: 0 15px;
+          background-color: #212121;
+          color: white;
+          font: 13px/24px "Hindmedium";
+          letter-spacing: 3.5px;
+          border-radius: 0;
+          outline: none;
+          border: none;
+          transition: 0.3s;
+          @include max-screen(1199px){
+            margin-right: 0;
+          }
+          @include max-screen(991px){
+            font-size: 10px;
+            height: 35px;
+            letter-spacing: 1.5px;
+            margin: 0 0 0 10px;
+          }
+          @include max-screen(767px){
+            width: 50%;
+            margin: 10px auto 0;
+            height: 25px;
+            line-height: 25px;
+            padding: 0;
+          }
+          &:hover{
+            border-radius: 15px;
+            transition: 0.3s;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
