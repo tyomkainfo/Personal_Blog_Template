@@ -5,20 +5,27 @@
     <meta charset="utf-8">
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>DecoBlog</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
     <!--  CSS -->
+    <!--<link rel="stylesheet" href="css/slider_custom.css">-->
+    <!--<link rel="stylesheet" href="css/slider_slicebox.css">-->
+    <link rel="stylesheet" href="css/oleg_style.css">
     <link rel="stylesheet" href="css/style.css">
 
     <!--fonts -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Hind:300|Montserrat:700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
 
 
-    <title>DecoBlog</title>
+    <!--JS-->
+    <script src="js/jquery-2.2.1.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/modernizr.custom.46884.js"></script>
+    <script src="js/jquery.slicebox.js"></script>
 
 
 </head>
@@ -26,10 +33,101 @@
 <body>
 <div class="wrapper"></div>
 <header>
-
+    <div class="fix_head">
+        <div class="container">
+            <div class="row navigation">
+                <div class="col-12 d-flex justify-content-between">
+                    <nav class="navbar nb_left">
+                        <button class="navbar-toggler nt_left second-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent23"
+                                aria-controls="navbarSupportedContent23" aria-expanded="false" aria-label="Toggle navigation">
+                            <div class="animated-icon"><span></span><span></span><span></span><span></span></div>
+                        </button>
+                        <div class="collapse navbar-collapse nc_left" id="navbarSupportedContent23">
+                            <ul class="navbar-nav nn_left mr-auto">
+                                <li class="nav-item ni_left">
+                                    <a class="nav-link nl_left" href="#">Detail Page</a>
+                                </li>
+                                <li class="nav-item ni_left">
+                                    <a class="nav-link nl_left" href="#">About Me</a>
+                                </li>
+                                <li class="nav-item ni_left">
+                                    <a class="nav-link nl_left" href="#">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <a class="logo" href="#"><img src="images/logo_header.png" alt=""></a>
+                    <nav class="navbar nb_right navbar-expand-lg navbar-light">
+                        <button class="navbar-toggler nt_right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span><i class="fas fa-ellipsis-h"></i></span>
+                        </button>
+                        <div class="collapse navbar-collapse nc_right" id="navbarSupportedContent">
+                            <ul class="navbar-nav nn_right">
+                                <li class="nav-item ni_right">
+                                    <a class="nav-link nl_right" href="#"><i class="fas fa-rss"></i></a>
+                                </li>
+                                <li class="nav-item ni_right">
+                                    <a class="nav-link nl_right" href="#"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li class="nav-item ni_right">
+                                    <a class="nav-link nl_right" href="#"><i class="fab fa-tumblr"></i></a>
+                                </li>
+                                <li class="nav-item ni_right">
+                                    <a class="nav-link nl_right" href="#"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li class="nav-item ni_right">
+                                    <a class="nav-link nl_right" href="#"><i class="fas fa-search"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="indent"></nav>
 </header>
 <section class="banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 slider">
+                <ul id="sb-slider" class="sb-slider">
+                    <li>
+                        <img src="images/slider_item_1.png" alt=""/>
+                        <div class="sb-description">
+                            <p>Latest News</p>
+                            <h2 class="text-uppercase">BodyBuilding best for you health</h2>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/slider_item_2.png" alt=""/>
 
+                        <div class="sb-description">
+                            <p>Latest News</p>
+                            <h2 class="text-uppercase">The Top 10 Vitamins That Everyone Should Include In Their Diet!</h2>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/slider_item_3.png" alt=""/>
+                        <div class="sb-description">
+                            <p>Latest News</p>
+                            <h2 class="text-uppercase">6 Supplements To Support A Healthy Heart</h2>
+                        </div>
+                    </li>
+                </ul>
+                <div id="nav-arrows" class="nav-arrows">
+                    <a href="#"></a>
+                    <span>Featured article</span>
+                    <a href="#"></a>
+                </div>
+                <div id="nav-dots" class="nav-dots">
+                    <span class="nav-dot-current"></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 <section class="search">
     <form action="" method="post">
@@ -114,7 +212,7 @@
                 </div>
 
             </div>
-            <div class="col-12 col-sm-6 col-md-3 latest_comment">
+            <div class="col-12 col-sm-6 col-md-3">
                 <h4 class="footer_column_title text-white">
                     latest comment
                 </h4>
@@ -160,17 +258,13 @@
 </footer>
 
 
+
 <!-- Optional JavaScript -->
 <!-- jQuery , then Bootstrap JS -->
-<script
-        src="https://code.jquery.com/jquery-2.2.4.min.js"
-        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-        crossorigin="anonymous"></script>
 <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
-<!--<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
 
-<!--index-->
 <script src="js/scripts.js"></script>
+
 
 </body>
 </html>
