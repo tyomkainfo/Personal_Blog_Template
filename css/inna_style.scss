@@ -96,6 +96,9 @@ footer {
   margin-top: 25px;
   background-color: var(--footer-bg-second-line);
   a{
+    &:hover{
+      text-transform: uppercase;
+    }
     color: white;
     text-decoration: none;
     font-family: var(--hind);
