@@ -2,6 +2,19 @@ $(document).ready(function () {
     $('.second-button').on('click', function () {
         $('.animated-icon').toggleClass('open');
     });
+
+
+    <!-- ************** Galina *****************-->
+
+    $('.btn_resize-cards').on('click', function (e) {
+
+        e.preventDefault();
+
+        $('.card-columns').toggleClass('resize-cards');
+
+    });
+    <!-- *** -->
+
 });
 
 $(document).ready(function(){
