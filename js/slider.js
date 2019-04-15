@@ -25,7 +25,9 @@ if(window.matchMedia('(min-width: 768px)').matches){
                     orientation : 'v',
                     cuboidsCount : 5,
                     cuboidsRandom : false,
-                    disperseFactor : 80,
+                    disperseFactor : 50,
+                    perspective : 700,
+                    speed : 500,
                 } ),
 
                 init = function() {
