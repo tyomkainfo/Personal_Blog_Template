@@ -113,12 +113,7 @@
   color: #999999;
 }
 .blog .card-columns {
-  column-count: 4;
-}
-@media screen and (max-width: 1300px) {
-  .blog .card-columns {
-    column-count: 3;
-  }
+  column-count: 3;
 }
 @media screen and (max-width: 992px) {
   .blog .card-columns {

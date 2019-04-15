@@ -87,11 +87,11 @@ $default-border-width: 1px;
   }
 
   .card-columns {
-    column-count: 4;
+    column-count: 3;
 
-    @include max-screen(1300px) {
-      column-count: 3;
-    }
+    //@include max-screen(1300px) {
+    //  column-count: 3;
+    //}
     @include max-screen(992px) {
       column-count: 2;
     }
