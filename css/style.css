@@ -375,6 +375,33 @@ body {
   100% {
     -moz-transform: scale(0.3) rotate(90deg);
     color: white; } }
+@media (max-width: 575.98px) {
+  .page-wrap .display-1 {
+    font-size: 100px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #363636; }
+  .page-wrap .block_search .form-control {
+    padding-right: 0 !important; }
+  .page-wrap .block_search .btn {
+    padding-right: 2px;
+    padding-left: 2px; } }
+@media (max-width: 705.98px) {
+  .page-wrap .display-1 {
+    font-size: 200px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #363636; }
+  .page-wrap .fountainTextG {
+    font-size: 13px;
+    letter-spacing: 7px;
+    line-height: 1.5;
+    padding-left: 8px; }
+  .page-wrap .block_search .form-control {
+    padding-right: 10px; }
+  .page-wrap .block_search .btn {
+    padding-right: 25px;
+    padding-left: 20px; } }
 .video {
   overflow: hidden;
   position: relative;

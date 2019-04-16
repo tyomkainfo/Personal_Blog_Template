@@ -490,3 +490,58 @@ body {
   }
 }
 
+// Экстрамалые девайсы («телефоны», < 576px)
+@media (max-width: 575.98px) {
+  .page-wrap {
+    .display-1 {
+      font-size: 100px;
+      font-family: $montserrat;
+      font-weight: bold;
+      color: #363636;
+    }
+    .block_search {
+      .form-control {
+        padding-right: 0 !important;
+      }
+      .btn {
+        padding-right: 2px;
+        padding-left: 2px;
+      }
+    }
+  }
+}
+
+// Малые девайсы («ландшафтные», < 768px)
+@media (max-width: 705.98px) {
+
+  .page-wrap {
+    .display-1 {
+      font-size: 200px;
+      font-family: $montserrat;
+      font-weight: bold;
+      color: #363636;
+    }
+
+    .fountainTextG {
+      font-size: 13px;
+      letter-spacing: 7px;
+      line-height: 1.5;
+      padding-left: 8px;
+    }
+    .block_search {
+
+      .form-control {
+        padding-right: 10px;
+      }
+
+      .btn {
+        padding-right: 25px;
+        padding-left: 20px;
+
+      }
+    }
+  }
+}
+
+
+
