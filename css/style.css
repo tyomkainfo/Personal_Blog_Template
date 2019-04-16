@@ -1346,9 +1346,6 @@ body {
   .carousel img {
     max-width: 300px; }
 
-.carousel-control-next {
-  margin-right: 50px; }
-
 .facebook-img img {
   max-width: 100%; }
 
@@ -1366,7 +1363,7 @@ body {
   display: block;
   padding-bottom: 5px; }
 
-.fa-search {
+.search {
   position: absolute;
   top: 0;
   font-size: 25px;
@@ -1380,14 +1377,12 @@ body {
 
 .form-control {
   height: 50px;
-  background-color: #f9f9fb;
-  width: 250px; }
+  background-color: #f9f9fb; }
 
 .banner {
   margin-top: 40px; }
 
 .catagories {
-  width: 300px;
   margin: auto; }
   .catagories h4 {
     text-align: center;
@@ -1397,36 +1392,35 @@ body {
     text-transform: uppercase;
     border: 1px  gainsboro;
     padding-top: 30px;
-    padding-bottom: 19px;
-    width: 300px; }
+    padding-bottom: 19px; }
 
 .form-group {
-  width: 250px;
+  width: 100%;
   outline: none; }
 
 .form-inline {
+  width: 100%;
   padding-bottom: 40px; }
 
-.fa-search {
+.search {
   position: absolute;
   top: 0;
   font-size: 25px;
-  color: black;
+  color: white;
   border: 1px solid;
   width: 50px;
   height: 50px;
   margin: auto;
   text-align: center;
   padding-top: 15px; }
-  .fa-search:hover {
+  .search:hover {
     color: white;
     background-color: #212121;
     transition: 1.5s; }
 
 .form-control {
   height: 50px;
-  background-color: #f9f9fb;
-  width: 250px; }
+  background-color: #f9f9fb; }
 
 .banner {
   margin-top: 40px; }
@@ -1439,8 +1433,7 @@ body {
   text-transform: uppercase;
   border: 1px  gainsboro;
   padding-top: 30px;
-  padding-bottom: 19px;
-  width: 300px; }
+  padding-bottom: 19px; }
   .catagories li span {
     float: right; }
 

@@ -6,14 +6,14 @@ section.aside .col-md-3{
 }
 .text-aside{
   padding-top: 20px;
-max-width: 300px;
+  max-width: 300px;
   h3{
     font-size: 14px;
     text-transform: uppercase;
     font-family: $montserrat;
   }
   span{
-color: #999999;
+    color: #999999;
     font-size: 12px;
     font-family: $hind;
   }
@@ -22,7 +22,7 @@ color: #999999;
   }
 }
 .text-aside:before{
-content: "";
+  content: "";
   margin-right: 10px;
   float: left;
   width: 60px;
@@ -58,7 +58,7 @@ body{
 .icons{
   i{
     color: #464646;
-font-size: 18px;
+    font-size: 18px;
 
   }
   i:hover{
@@ -73,9 +73,7 @@ font-size: 18px;
     max-width: 300px;
   }
 }
-.carousel-control-next{
-  margin-right: 50px;
-}
+
 .facebook-img{
   img{
     max-width: 100%;
@@ -97,7 +95,7 @@ font-size: 18px;
   padding-bottom: 5px;
 
 }
-.fa-search{
+.search{
   position: absolute;
   top: 0;
   font-size: 25px;
@@ -112,13 +110,12 @@ font-size: 18px;
 .form-control{
   height: 50px;
   background-color: #f9f9fb;
-  width: 250px;
+  //width: 250px;
 }
 .banner{
   margin-top: 40px;
 }
 .catagories{
-  width: 300px;
   margin: auto;
   h4{
     text-align: center;
@@ -130,21 +127,22 @@ font-size: 18px;
     border: 1px  gainsboro;
     padding-top: 30px;
     padding-bottom: 19px;
-    width: 300px;
+    //max-width: 100px;
   }
 }
 .form-group{
-width: 250px;
+  width: 100%;
   outline: none;
 }
 .form-inline{
+  width: 100%;
   padding-bottom: 40px;
 }
-.fa-search{
+.search{
   position: absolute;
   top: 0;
   font-size: 25px;
-  color: black;
+  color: white;
   border: 1px solid;
   width: 50px;
   height: 50px;
@@ -161,7 +159,7 @@ width: 250px;
 .form-control{
   height: 50px;
   background-color: #f9f9fb;
-  width: 250px;
+  //max-width: 250px;
 }
 .banner{
   margin-top: 40px;
@@ -177,7 +175,7 @@ width: 250px;
     border: 1px  gainsboro;
     padding-top: 30px;
     padding-bottom: 19px;
-    width: 300px;
+    //max-width: 300px;
     span{
       float: right;
     }
