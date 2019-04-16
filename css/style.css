@@ -3,16 +3,12 @@ body {
   margin: 0; }
 
 .page-wrap {
-  padding-top: 238px;
   min-height: 100vh; }
   .page-wrap .display-1 {
     font-size: 375px;
     font-family: "Montserrat", sans-serif;
-    color: #363636;
     font-weight: bold;
-    line-height: 0.08;
-    display: flex;
-    justify-content: center; }
+    color: #363636; }
     .page-wrap .display-1 .four_left {
       animation: move_1 1s;
       animation-delay: 1s;
@@ -44,15 +40,15 @@ body {
   100% {
     opacity: 1; } }
   .page-wrap .block_found {
-    z-index: 12;
-    background-color: #ffffff;
-    position: absolute;
-    left: 30%;
-    top: 13%;
-    width: 770px;
-    height: 21px;
-    justify-content: center;
-    display: flex; }
+    font-size: 20px;
+    font-family: "Hind", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 17px;
+    background-color: #fff;
+    top: 40%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%); }
   .page-wrap #fountainTextG {
     width: 545px;
     margin: auto; }
@@ -248,7 +244,6 @@ body {
     -moz-transform: scale(0.5);
     color: white; } }
   .page-wrap .navbar {
-    padding-top: 193px;
     padding-bottom: 30px;
     background-color: transparent;
     border-radius: 0;
@@ -292,6 +287,7 @@ body {
     font-weight: bold;
     line-height: 0.8;
     float: left;
+    padding-bottom: 40px;
     animation-name: bounce_spinningTextG;
     -o-animation-name: bounce_spinningTextG;
     -ms-animation-name: bounce_spinningTextG;
