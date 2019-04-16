@@ -348,7 +348,7 @@ a {
 
 .container {
   width: 100%; }
-  @media screen and (min-width: 1300px) {
+  @media screen and (min-width: 1439px) {
     .container {
       width: 100%; } }
 
@@ -610,7 +610,7 @@ header .indent {
         z-index: 1;
         position: absolute;
         color: #fff;
-        max-width: 480px;
+        max-width: 570px;
         height: 150px;
         animation-name: slide_descript;
         animation-duration: 0.5s; }
@@ -784,6 +784,7 @@ header .indent {
           padding: 0; } }
       .authorization .container .row form p {
         font: 20px/28px 'Montserrat';
+        font-weight: 900;
         max-width: 200px;
         letter-spacing: 3.3px;
         width: 100%;
