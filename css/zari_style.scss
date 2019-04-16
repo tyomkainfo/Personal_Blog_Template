@@ -7,13 +7,13 @@ body {
 
 
 .page-wrap {
-
   min-height: 100vh;
   .display-1 {
     font-size: 300px;
     font-family: $montserrat;
     font-weight: bold;
     color: #363636;
+
 
     .four_left{
       animation: move_1 1s;
@@ -54,17 +54,8 @@ body {
 
 
   .block_found {
-    //z-index: 12;
-    //background-color: #ffffff;
-    //position: absolute;
-    //left: 30%;
-    //top: 13%;
-    //width: 770px;
-    //height: 21px;
-    //justify-content: center;
-    //display: flex;
     background-color: #fff;
-    top: 61%;
+    top: 62%;
     left: 0;
     right: 0;
     transform: translateY(-50%);
@@ -81,7 +72,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 18px;
     font-weight: bold;
-    line-height: 1.2;
+    line-height: 1.5;
     float: left;
     padding-left: 3px;
     animation-name:bounce_fountainTextG;

@@ -41,7 +41,7 @@ body {
     opacity: 1; } }
   .page-wrap .block_found {
     background-color: #fff;
-    top: 61%;
+    top: 62%;
     left: 0;
     right: 0;
     transform: translateY(-50%); }
@@ -55,7 +55,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 18px;
     font-weight: bold;
-    line-height: 1.2;
+    line-height: 1.5;
     float: left;
     padding-left: 3px;
     animation-name: bounce_fountainTextG;
