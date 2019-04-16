@@ -10,14 +10,7 @@ body {
 
   min-height: 100vh;
   .display-1 {
-    //font-size: 375px;
-    //font-family: $montserrat;
-    //color: rgb(54, 54, 54);
-    //font-weight: bold;
-    //line-height: 0.08;
-    //display: flex;
-    //justify-content: center;
-    font-size: 375px;
+    font-size: 300px;
     font-family: $montserrat;
     font-weight: bold;
     color: #363636;
@@ -70,12 +63,8 @@ body {
     //height: 21px;
     //justify-content: center;
     //display: flex;
-    font-size: 20px;
-    font-family: $hind;
-    text-transform: uppercase;
-    letter-spacing: 17px;
     background-color: #fff;
-    top: 40%;
+    top: 61%;
     left: 0;
     right: 0;
     transform: translateY(-50%);
@@ -86,11 +75,11 @@ body {
   }
 
   .fountainTextG{
-    font-size: 22px;
-    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-family:$hind;
     color: #212121;
     text-transform: uppercase;
-    letter-spacing: 11px;
+    letter-spacing: 18px;
     font-weight: bold;
     line-height: 1.2;
     float: left;

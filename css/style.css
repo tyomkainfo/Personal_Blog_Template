@@ -5,7 +5,7 @@ body {
 .page-wrap {
   min-height: 100vh; }
   .page-wrap .display-1 {
-    font-size: 375px;
+    font-size: 300px;
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
     color: #363636; }
@@ -40,12 +40,8 @@ body {
   100% {
     opacity: 1; } }
   .page-wrap .block_found {
-    font-size: 20px;
-    font-family: "Hind", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 17px;
     background-color: #fff;
-    top: 40%;
+    top: 61%;
     left: 0;
     right: 0;
     transform: translateY(-50%); }
@@ -53,11 +49,11 @@ body {
     width: 545px;
     margin: auto; }
   .page-wrap .fountainTextG {
-    font-size: 22px;
-    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-family: "Hind", sans-serif;
     color: #212121;
     text-transform: uppercase;
-    letter-spacing: 11px;
+    letter-spacing: 18px;
     font-weight: bold;
     line-height: 1.2;
     float: left;
