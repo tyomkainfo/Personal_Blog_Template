@@ -265,12 +265,6 @@ body {
       line-height: 1.714;
       border-radius: 0;
       z-index: 12; }
-  .page-wrap .block_bottom h2 {
-    font-size: 30px;
-    font-family: "Montserrat", sans-serif;
-    color: #363636;
-    font-weight: bold;
-    line-height: 0.8; }
   .page-wrap .block_bottom p {
     color: #c6c6c7;
     font-weight: bold;
@@ -288,7 +282,106 @@ body {
       transform: scale(1.5); }
   .page-wrap .block_bottom a:hover {
     transform: scale(1.5); }
-
+  .page-wrap .block_bottom #spinningTextG {
+    display: flex;
+    justify-content: center; }
+  .page-wrap .block_bottom .spinningTextG {
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    color: #363636;
+    font-weight: bold;
+    line-height: 0.8;
+    float: left;
+    animation-name: bounce_spinningTextG;
+    -o-animation-name: bounce_spinningTextG;
+    -ms-animation-name: bounce_spinningTextG;
+    -webkit-animation-name: bounce_spinningTextG;
+    -moz-animation-name: bounce_spinningTextG;
+    animation-duration: 3.25s;
+    -o-animation-duration: 3.25s;
+    -ms-animation-duration: 3.25s;
+    -webkit-animation-duration: 3.25s;
+    -moz-animation-duration: 3.25s;
+    animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    -ms-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-direction: normal;
+    -o-animation-direction: normal;
+    -ms-animation-direction: normal;
+    -webkit-animation-direction: normal;
+    -moz-animation-direction: normal;
+    transform: scale(0.3);
+    -o-transform: scale(0.3);
+    -ms-transform: scale(0.3);
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3); }
+  .page-wrap .block_bottom #spinningTextG_1 {
+    animation-delay: 1.63s;
+    -o-animation-delay: 1.63s;
+    -ms-animation-delay: 1.63s;
+    -webkit-animation-delay: 1.63s;
+    -moz-animation-delay: 1.63s; }
+  .page-wrap .block_bottom #spinningTextG_2 {
+    animation-delay: 1.95s;
+    -o-animation-delay: 1.95s;
+    -ms-animation-delay: 1.95s;
+    -webkit-animation-delay: 1.95s;
+    -moz-animation-delay: 1.95s; }
+  .page-wrap .block_bottom #spinningTextG_3 {
+    animation-delay: 2.28s;
+    -o-animation-delay: 2.28s;
+    -ms-animation-delay: 2.28s;
+    -webkit-animation-delay: 2.28s;
+    -moz-animation-delay: 2.28s; }
+  .page-wrap .block_bottom #spinningTextG_4 {
+    animation-delay: 2.6s;
+    -o-animation-delay: 2.6s;
+    -ms-animation-delay: 2.6s;
+    -webkit-animation-delay: 2.6s;
+    -moz-animation-delay: 2.6s; }
+  .page-wrap .block_bottom #spinningTextG_5 {
+    animation-delay: 2.93s;
+    -o-animation-delay: 2.93s;
+    -ms-animation-delay: 2.93s;
+    -webkit-animation-delay: 2.93s;
+    -moz-animation-delay: 2.93s; }
+@keyframes bounce_spinningTextG {
+  0% {
+    transform: scale(1);
+    color: black; }
+  100% {
+    transform: scale(0.3) rotate(90deg);
+    color: white; } }
+@-o-keyframes bounce_spinningTextG {
+  0% {
+    -o-transform: scale(1);
+    color: black; }
+  100% {
+    -o-transform: scale(0.3) rotate(90deg);
+    color: white; } }
+@-ms-keyframes bounce_spinningTextG {
+  0% {
+    -ms-transform: scale(1);
+    color: black; }
+  100% {
+    -ms-transform: scale(0.3) rotate(90deg);
+    color: white; } }
+@-webkit-keyframes bounce_spinningTextG {
+  0% {
+    -webkit-transform: scale(1);
+    color: black; }
+  100% {
+    -webkit-transform: scale(0.3) rotate(90deg);
+    color: white; } }
+@-moz-keyframes bounce_spinningTextG {
+  0% {
+    -moz-transform: scale(1);
+    color: black; }
+  100% {
+    -moz-transform: scale(0.3) rotate(90deg);
+    color: white; } }
 .video {
   overflow: hidden;
   position: relative;
@@ -576,7 +669,7 @@ a {
 
 .container {
   width: 100%; }
-  @media screen and (min-width: 1300px) {
+  @media screen and (min-width: 1439px) {
     .container {
       width: 100%; } }
 
@@ -838,7 +931,7 @@ header .indent {
         z-index: 1;
         position: absolute;
         color: #fff;
-        max-width: 480px;
+        max-width: 570px;
         height: 150px;
         animation-name: slide_descript;
         animation-duration: 0.5s; }
@@ -1012,6 +1105,7 @@ header .indent {
           padding: 0; } }
       .authorization .container .row form p {
         font: 20px/28px 'Montserrat';
+        font-weight: 900;
         max-width: 200px;
         letter-spacing: 3.3px;
         width: 100%;
