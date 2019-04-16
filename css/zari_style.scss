@@ -16,7 +16,8 @@ body {
     font-weight: bold;
     line-height: 0.08;
     display: flex;
-    padding-left: 157px;
+
+    justify-content: center;
     .four_left{
       animation: move_1 1s;
       animation-delay: 1s;
@@ -59,10 +60,12 @@ body {
     z-index: 12;
     background-color: #ffffff;
     position: absolute;
-    left: 15%;
+    left: 30%;
     top: 13%;
-    width: 775px;
+    width: 770px;
     height: 21px;
+    justify-content: center;
+    display: flex;
   }
   #fountainTextG{
     width:545px;
@@ -84,7 +87,7 @@ body {
     -ms-animation-name:bounce_fountainTextG;
     -webkit-animation-name:bounce_fountainTextG;
     -moz-animation-name:bounce_fountainTextG;
-    animation-delay: 4s;
+    animation-delay: 2s;
     animation-duration:2.09s;
     -o-animation-duration:2.09s;
     -ms-animation-duration:2.09s;
@@ -352,6 +355,12 @@ body {
       img {
         margin-right: 10px;
       }
+      img:hover{
+        transform: scale(1.5);
+      }
+    }
+    a:hover{
+      transform: scale(1.5);
     }
   }
 }
