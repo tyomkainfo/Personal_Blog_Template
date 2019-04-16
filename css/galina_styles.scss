@@ -1,3 +1,5 @@
+@import "animate.css";
+
 @mixin max-screen($res) {
   @media screen and (max-width: $res) {
     @content;
@@ -38,23 +40,13 @@ $default-light-border-color: #d7d7d7;
 $default-border-width: 1px;
 
 
-.video {
-  overflow: hidden;
-  position: relative;
-  padding-bottom: 45.5%;
-  padding-top: 30px;
-  height: 0;
-
-  iframe {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-  }
-}
-
 .blog {
+  &.blog-detailed {
+    .card-columns {
+      column-count: 1;
+    }
+  }
+
   //padding: 70px 0 50px 0;
   background-color: $default-light-grey-background;
   font-family: 'Montserrat', sans-serif;
@@ -80,6 +72,22 @@ $default-border-width: 1px;
       border: 2px solid $default-dark-color;
     }
 
+  }
+
+  .video {
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 45.5%;
+    padding-top: 30px;
+    height: 0;
+
+    iframe {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
   }
 
   .text-grey {
@@ -212,7 +220,8 @@ $default-border-width: 1px;
 
 
     .btn-primary {
-      background-color: $default-light-color;
+      background-color: transparent;
+      //background-color: $default-light-color;
       color: $default-dark-color;
       border: none;
       font-family: $default-primary-font-family;
