@@ -1,0 +1,51 @@
+.fa-search{
+  position: absolute;
+  top: 0;
+  font-size: 25px;
+  color: black;
+  border: 1px solid;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  text-align: center;
+  padding-top: 15px;
+  &:hover{
+    color: white;
+    background-color: #212121;
+    transition: 1.5s;
+
+  }
+}
+.form-control{
+  height: 50px;
+  background-color: #f9f9fb;
+  width: 250px;
+}
+.banner{
+  margin-top: 40px;
+}
+.catagories{
+  width: 300px;
+  margin: auto;
+
+  h4{
+    text-align: center;
+    text-transform: uppercase;
+  }
+  li{
+    list-style: none;
+    text-transform: uppercase;
+    border: 1px  gainsboro;
+    padding-top: 30px;
+    padding-bottom: 19px;
+    width: 300px;
+    span{
+      float: right;
+    }
+  }
+}
+.cat{
+  ul{
+    padding-left: 0;
+  }
+}
