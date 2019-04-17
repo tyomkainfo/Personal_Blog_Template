@@ -25,8 +25,9 @@ a {
 
 .container {
   width: 100%; }
-  @media screen and (min-width: 1439px) {
+  @media screen and (min-width: 1201px) {
     .container {
+      max-width: 1560px !important;
       width: 100%; } }
 
 header .fix_head {
@@ -544,6 +545,39 @@ header .indent {
           transition: 0.3s;
           animation-name: button;
           animation-duration: 0.2s; }
+
+.blog .card-columns .card-bottom .like_count .like-counter {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  position: relative;
+  margin-left: 35px;
+  margin-right: 10px;
+  transition: 0.3s; }
+  .blog .card-columns .card-bottom .like_count .like-counter:after {
+    font-family: "Font Awesome 5 Free", serif;
+    font-weight: 400;
+    font-size: 14px;
+    content: "\f004";
+    transition: 0.3s;
+    color: #464646; }
+  .blog .card-columns .card-bottom .like_count .like-counter:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: 0.3s; }
+    .blog .card-columns .card-bottom .like_count .like-counter:hover:after {
+      font-weight: 900;
+      color: #ff5461;
+      transition: 0.3s; }
+.blog .card-columns .card-bottom .like_count .click-text {
+  font: 16px/24px "Hind";
+  text-transform: uppercase;
+  margin-right: 8px;
+  color: #999999; }
+
+#clicks {
+  font-size: 14px;
+  color: #999999; }
 
 @keyframes logo {
   0% {
