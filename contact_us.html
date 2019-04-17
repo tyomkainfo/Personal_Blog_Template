@@ -20,11 +20,13 @@
     <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700|Montserrat:100,200,300,400,500,600,700"
           rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <!--JS-->
     <script src="js/jquery-2.2.1.min.js"></script>
     <script src="js/slider.js"></script>
     <script src="js/modernizr.custom.46884.js"></script>
     <script src="js/jquery.slicebox.js"></script>
+    <script src="js/form_effect.js"></script>
 
 
 </head>
@@ -98,7 +100,8 @@
                     <div class="row no-gutters">
                         <div class="col-4">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6259015.359038703!2d-100.73993913669803!3d37.716007585239325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2z0KHQvtC10LTQuNC90LXQvdC90YvQtSDQqNGC0LDRgtGLINCQ0LzQtdGA0LjQutC4!5e0!3m2!1sru!2sua!4v1555432822261!5m2!1sru!2sua"
-                                    width="100%" height="317" frameborder="0" style="border:0" allowfullscreen ></iframe>
+                                    width="100%" height="100%" frameborder="0" style="border:0"
+                                    allowfullscreen></iframe>
 
                         </div>
                         <div class="col-8 contact_description">
@@ -135,41 +138,61 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-9 contact_form">
+            <div class="col-9 contact_form ">
                 <form action="" method="" class="tab_panel_content">
 
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="username" placeholder="Your name">
+                    <div class="form-group  input input--nariko">
+                        <input type="text" class=" input__field input__field--nariko" id="username" placeholder="">
+                        <label class="input__label input__label--nariko" for="username">
+                            <span class="input__label-content input__label-content--nariko">your Name</span>
+                        </label>
                     </div>
-                    <div class="form-group">
 
-                        <input type="email" class="form-control" id="email"
-                               placeholder="your email address">
+                    <div class="form-group  input input--nariko">
+                        <input type="email" class=" input__field input__field--nariko" id="email" placeholder="">
+                        <label class="input__label input__label--nariko" for="email">
+                            <span class="input__label-content input__label-content--nariko">your email address</span>
+                        </label>
                     </div>
-                    <div class="form-group">
 
-                        <input type="text" class="form-control" id="password"
-                               placeholder=" website address">
+                    <div class="form-group  input input--nariko">
+                        <input type="text" class="input__field input__field--nariko" id="website" placeholder="">
+                        <label class="input__label input__label--nariko" for="website">
+                            <span class="input__label-content input__label-content--nariko">website address</span>
+                        </label>
                     </div>
-                    <div class="form-group">
 
-                       <textarea placeholder="please write a message here">
+                    <div class="form-group input input--nariko form_comment">
 
-                       </textarea>
+                        <input type="text" class="input__field input__field--nariko" id="comment" placeholder="">
+
+                        <label class="input__label input__label--nariko " for="comment">
+                            <span class="input__label-content input__label-content--nariko">please write your message here</span>
+                        </label>
+
+
+                        <!--<textarea placeholder="please write a message here">-->
+
+                        <!--</textarea>-->
                     </div>
-                    <button type="submit" class="btn btn-default">next step</button>
-
 
                 </form>
+                <div class="mail">
+
+                    <button class="mail-btn" type="submit">send</button>
+                </div>
+
 
             </div>
+
         </div>
     </div>
 
 </section>
 
 
-<!--<footer>
+
+<footer>
     <div class="container footer_container">
         <div class="row first_line">
             <div class="col-12 col-sm-6 col-md-3 about_blog  ">
@@ -277,12 +300,12 @@
 
     </div>
 
-</footer>-->
+</footer>
 
 <!-- Optional JavaScript -->
 <!-- jQuery , then Bootstrap JS -->
 <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
-
+<script src="js/send.js"></script>
 <script src="js/scripts.js"></script>
 
 
