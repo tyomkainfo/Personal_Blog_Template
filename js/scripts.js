@@ -39,3 +39,14 @@ $(document).ready(function(){
 
 
 
+<!-- ************** WOW LIBRARY *****************-->
+    var wow = new WOW(
+        {
+            mobile: false
+        }
+    );
+    wow.init();
+<!-- *** -->
+
+
+

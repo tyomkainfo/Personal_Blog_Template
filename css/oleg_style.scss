@@ -61,8 +61,8 @@ a{
 }
 .container{
   width: 100%;
-  @include min-screen(1300px){
-    //max-width: 1560px;
+  @include min-screen(1439px){
+    //max-width: 1560!important;
     width: 100%;
   }
 }
@@ -387,7 +387,7 @@ header{
               z-index: 1;
               position: absolute;
               color: #fff;
-              max-width: 480px;
+              max-width: 570px;
               height: 150px;
               animation-name: slide_descript;
               animation-duration: 0.5s;
@@ -584,6 +584,7 @@ header{
         }
         p{
           font: 20px/28px 'Montserrat';
+          font-weight: 900;
           max-width: 200px;
           letter-spacing: 3.3px;
           width: 100%;
