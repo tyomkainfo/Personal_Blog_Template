@@ -578,6 +578,9 @@ body {
         .blog .card-post .card-bottom .comments {
           font-size: 13px; } }
 
+* {
+  outline: none !important; }
+
 :root {
   --footer-bg: #212429;
   --footer-text-color: #f9f9fb;
@@ -588,13 +591,6 @@ body {
   --montserrat: 'Montserrat', sans-serif;
   --hind: 'Hind', sans-serif;
   --open-sans-light: 'Open Sans', sans-serif; }
-
-* {
-  outline: none !important; }
-
-.footer_container {
-  max-width: 1535px;
-  margin: auto; }
 
 footer {
   color: var(--footer-text-color);
@@ -710,8 +706,14 @@ footer {
     margin-bottom: 30px;
     display: inline-block;
     width: 48%; }
+    @media screen and (max-width: 1200px) {
+      .contact_form .tab_panel_content .form-group {
+        width: 100%; } }
     .contact_form .tab_panel_content .form-group:nth-of-type(2) {
       margin-left: 25px; }
+      @media screen and (max-width: 1200px) {
+        .contact_form .tab_panel_content .form-group:nth-of-type(2) {
+          margin-left: 0px; } }
     .contact_form .tab_panel_content .form-group:nth-of-type(3) {
       width: 100%; }
     .contact_form .tab_panel_content .form-group:nth-of-type(4) {
@@ -864,15 +866,16 @@ footer {
   font-family: 'Open Sans', sans-serif; }
 
 .mail-btn {
-  border: solid 2px  #8E9191;
+  border: solid 2px #8E9191;
   position: relative;
   top: 35%;
   display: inline-block;
-  padding: 0.5rem 1rem;
+  padding: 20px 30px;
   background: none;
   outline: none;
   -webkit-appearance: none;
-  font-size: 2rem;
+  font-size: 14px;
+  font-weight: bold;
   color: #8E9191;
   text-decoration: none;
   text-transform: uppercase;
@@ -995,8 +998,8 @@ footer {
     width: 3.5rem;
     border-top: 0;
     border-right: 0;
-    border-bottom: 10px solid white;
-    border-left: 10px solid white;
+    border-bottom: 10px solid green;
+    border-left: 10px solid green;
     opacity: 0;
     -webkit-transform: rotate(-45deg) translateX(300%) translateY(-500%);
     transform: rotate(-45deg) translateX(300%) translateY(-500%); }
@@ -1005,8 +1008,8 @@ footer {
     width: 3.5rem;
     border-top: 0;
     border-right: 0;
-    border-bottom: 10px solid white;
-    border-left: 10px solid white;
+    border-bottom: 10px solid green;
+    border-left: 10px solid green;
     opacity: 1;
     -webkit-transform: rotate(-45deg) translateX(0) translateY(0);
     transform: rotate(-45deg) translateX(0) translateY(0); }
@@ -1015,8 +1018,8 @@ footer {
     width: 3.5rem;
     border-top: 0;
     border-right: 0;
-    border-bottom: 10px solid white;
-    border-left: 10px solid white;
+    border-bottom: 10px solid green;
+    border-left: 10px solid green;
     opacity: 1;
     -webkit-transform: rotate(-45deg) translateX(0) translateY(0);
     transform: rotate(-45deg) translateX(0) translateY(0); }
@@ -1025,8 +1028,8 @@ footer {
     width: 3.5rem;
     border-top: 0;
     border-right: 0;
-    border-bottom: 10px solid white;
-    border-left: 10px solid white;
+    border-bottom: 10px solid green;
+    border-left: 10px solid green;
     opacity: 0;
     -webkit-transform: rotate(-45deg) translateX(0) translateY(0);
     transform: rotate(-45deg) translateX(0) translateY(0); }
