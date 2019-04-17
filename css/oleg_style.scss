@@ -61,8 +61,8 @@ a{
 }
 .container{
   width: 100%;
-  @include min-screen(1439px){
-    //max-width: 1560!important;
+  @include min-screen(1201px){
+    max-width: 1560px!important;
     width: 100%;
   }
 }
@@ -675,6 +675,53 @@ header{
       }
     }
   }
+}
+
+.blog{
+  .card-columns{
+    .card-bottom{
+      .like_count{
+        .like-counter{
+          display: inline-block;
+          width: 14px;
+          height: 14px;
+          position: relative;
+          margin-left: 35px;
+          margin-right: 10px;
+          transition: 0.3s;
+          &:after{
+            font-family: "Font Awesome 5 Free", serif;
+            font-weight: 400;
+            font-size: 14px;
+            content: "\f004";
+            transition: 0.3s;
+            color: #464646;
+          }
+          &:hover{
+            cursor: pointer;
+            transform: scale(1.3);
+            transition: 0.3s;
+            &:after{
+              font-weight: 900;
+              color: #ff5461;
+              transition: 0.3s;
+            }
+          }
+        }
+        .click-text{
+          font: 16px/24px "Hind";
+          text-transform: uppercase;
+          margin-right: 8px;
+          color: #999999;
+        }
+      }
+    }
+  }
+}
+
+#clicks{
+  font-size: 14px;
+  color: #999999;
 }
 
 ///////////////////////Keyframes//////////////////
