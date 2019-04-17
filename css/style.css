@@ -243,6 +243,8 @@
   --footer-text-color: #f9f9fb;
   --footer-copyright-color: #ffffff;
   --footer-bg-second-line: #17191c;
+  --contact-bg: #f9f9fb;
+  --contact-text: #424242;
   --montserrat: 'Montserrat', sans-serif;
   --hind: 'Hind', sans-serif;
   --open-sans-light: 'Open Sans', sans-serif; }
@@ -321,6 +323,53 @@ footer {
         display: inline-block;
         clear: both;
         padding-left: 15px; }
+
+/***********************CONTACT US*****************************/
+.contact {
+  background-color: var(--contact-bg); }
+
+.contact_information {
+  font-family: "Hind", sans-serif;
+  font-size: 14px;
+  line-height: 23px;
+  color: var(--contact-text);
+  margin-top: 100px; }
+  .contact_information .contact_description {
+    padding: 30px 60px 30px 30px;
+    background-color: white; }
+    .contact_information .contact_description h2 {
+      font-family: var(--montserrat);
+      font-weight: bold;
+      font-size: 20px;
+      text-transform: uppercase; }
+      .contact_information .contact_description h2:after {
+        margin: 30px 0;
+        content: "";
+        clear: both;
+        display: block;
+        width: 370px;
+        height: 1px;
+        background-color: #eaeaeb; }
+    .contact_information .contact_description p {
+      font-size: 14px;
+      line-height: 23px;
+      margin-bottom: 30px; }
+    .contact_information .contact_description .social_info {
+      margin: 10px 0; }
+      .contact_information .contact_description .social_info i {
+        color: #212429; }
+      .contact_information .contact_description .social_info span {
+        padding-left: 10px; }
+
+.contact_form {
+  padding-top: 30px; }
+  .contact_form .tab_panel_content .form-group textarea {
+    width: 100%;
+    height: 245px;
+    resize: none;
+    color: black; }
+    .contact_form .tab_panel_content .form-group textarea :-moz-placeholder {
+      color: red; }
 
 @font-face {
   font-family: 'Hindsemibold';

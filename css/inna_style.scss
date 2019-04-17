@@ -3,6 +3,8 @@
   --footer-text-color: #f9f9fb;
   --footer-copyright-color: #ffffff;
   --footer-bg-second-line: #17191c;
+  --contact-bg: #f9f9fb;
+  --contact-text: #424242;
   --montserrat: 'Montserrat', sans-serif;
   --hind: 'Hind', sans-serif;
   --open-sans-light: 'Open Sans', sans-serif;
@@ -96,8 +98,8 @@ footer {
 .second_line {
   margin-top: 25px;
   background-color: var(--footer-bg-second-line);
-  a{
-    &:hover{
+  a {
+    &:hover {
       text-transform: uppercase;
     }
     color: white;
@@ -108,21 +110,92 @@ footer {
     text-transform: uppercase;
     line-height: 40px;
 
-    &:nth-of-type(2){
+    &:nth-of-type(2) {
       margin: 0 15px;
-      &:before{
+      &:before {
         content: "|";
         display: inline-block;
         clear: both;
-        padding-right:15px ;
+        padding-right: 15px;
       }
 
-      &:after{
+      &:after {
         content: "|";
         display: inline-block;
         clear: both;
-        padding-left:15px ;
+        padding-left: 15px;
       }
     }
   }
+}
+
+/***********************CONTACT US*****************************/
+.contact {
+  background-color: var(--contact-bg);
+}
+
+.contact_information {
+  font-family: "Hind", sans-serif;
+  font-size: 14px;
+  line-height: 23px;
+  color: var(--contact-text);
+  margin-top: 100px;
+  .contact_description {
+    padding: 30px 60px 30px 30px;
+    background-color: white;
+    h2 {
+      font-family: var(--montserrat);
+      font-weight: bold;
+      font-size: 20px;
+      text-transform: uppercase;
+      &:after {
+        margin: 30px 0;
+        content: "";
+        clear: both;
+        display: block;
+        width: 370px;
+        height: 1px;
+        background-color: #eaeaeb;
+      }
+    }
+    p {
+      font-size: 14px;
+      line-height: 23px;
+      margin-bottom: 30px;
+
+    }
+    .social_info {
+      margin: 10px 0;
+      i {
+        color: #212429;
+
+      }
+      span {
+        padding-left: 10px;
+
+      }
+    }
+  }
+
+}
+
+.contact_form {
+  padding-top: 30px;
+  .tab_panel_content {
+    .form-group {
+
+      input {
+
+      }
+      textarea {
+        width: 100%;
+        height: 245px;
+        resize: none;
+        color: black;
+        :-moz-placeholder { color: red; }
+
+      }
+    }
+  }
+
 }
