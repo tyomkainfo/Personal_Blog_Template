@@ -1,34 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>Detail</title>
+    <title>DecoBlog</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
     <!--  CSS -->
     <link rel="stylesheet" href="css/style.css">
 
-    <!--Fonts -->
+    <!--fonts -->
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
           integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700|Montserrat:100,200,300,400,500,600,700"
           rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <!--JS-->
     <script src="js/jquery-2.2.1.min.js"></script>
     <script src="js/slider.js"></script>
     <script src="js/modernizr.custom.46884.js"></script>
     <script src="js/jquery.slicebox.js"></script>
+    <script src="js/form_effect.js"></script>
 
 
-    <!--<script src="js/rater.min.js"></script>-->
 </head>
 <body>
-
 <header>
     <div class="fix_head">
         <div class="container">
@@ -44,10 +46,7 @@
                         <div class="collapse navbar-collapse nc_left" id="navbarSupportedContent23">
                             <ul class="navbar-nav nn_left mr-auto">
                                 <li class="nav-item ni_left">
-                                    <a class="nav-link nl_left" href="index.html">Home</a>
-                                </li>
-                                <li class="nav-item ni_left">
-                                    <a class="nav-link nl_left" href="detail.html">Detail Page</a>
+                                    <a class="nav-link nl_left" href="#">Detail Page</a>
                                 </li>
                                 <li class="nav-item ni_left">
                                     <a class="nav-link nl_left" href="#">About Me</a>
@@ -92,143 +91,105 @@
     <nav class="indent"></nav>
 </header>
 
-<section class="banner">
-    <div class="container">
+
+<section class="contact">
+    <div class="container ">
         <div class="row">
-            <div class="col-12 slider">
-                <ul id="sb-slider" class="sb-slider">
-                    <li>
-                        <img src="images/slider_item_1.png" alt=""/>
-                        <div class="sb-description">
-                            <p>Latest News</p>
-                            <h2 class="text-uppercase">BodyBuilding best for you health</h2>
+            <div class="col-9">
+                <div class="contact_information">
+                    <div class="row no-gutters">
+                        <div class="col-12 col-lg-4">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6259015.359038703!2d-100.73993913669803!3d37.716007585239325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2z0KHQvtC10LTQuNC90LXQvdC90YvQtSDQqNGC0LDRgtGLINCQ0LzQtdGA0LjQutC4!5e0!3m2!1sru!2sua!4v1555432822261!5m2!1sru!2sua"
+                                    width="100%" height="100%" frameborder="0" style="border:0"
+                                    allowfullscreen></iframe>
+
                         </div>
-                    </li>
-                    <li>
-                        <img src="images/slider_item_2.png" alt=""/>
-
-                        <div class="sb-description">
-                            <p>Latest News</p>
-                            <h2 class="text-uppercase">The Top 10 Vitamins That Everyone Should Include In Their
-                                Diet!</h2>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="images/slider_item_3.png" alt=""/>
-                        <div class="sb-description">
-                            <p>Latest News</p>
-                            <h2 class="text-uppercase">6 Supplements To Support A Healthy Heart</h2>
-                        </div>
-                    </li>
-                </ul>
-                <div id="nav-arrows" class="nav-arrows">
-                    <a href="#"></a>
-                    <span>Featured article</span>
-                    <a href="#"></a>
-                </div>
-                <div id="nav-dots" class="nav-dots">
-                    <span class="nav-dot-current"></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="authorization">
-    <div class="container">
-        <div class="row">
-            <form class="col-12 d-flex justify-content-between flex-nowrap">
-                <p class="h5 text-uppercase p-0">Signup to Newsletter</p>
-                <input type="text" class="form-control" id="userName" placeholder="YOUR NAME">
-                <input type="email" class="form-control" id="userEmail" placeholder="YOUR EMAIL ADRESS">
-                <button class="text-uppercase" type="reset">Subscribe Now</button>
-            </form>
-        </div>
-    </div>
-</section>
-
-
-<section class="blog blog-detailed pt-5  pb-5 mt-4">
-    <div class="container">
-        <div class="col-md-9">
-            <div class="card-columns">
-                <article data-wow-delay=".2s" data-duration=".1s" class="wow zoomIn  card card-post">
-                    <div class="card-top">
-                        <img class="img-fluid" src="images/blog/3.jpg" alt="img-blog">
-                    </div>
-
-                    <div class="card-content position-relative py-5 px-4">
-
-                        <a href="#" class="meta position-absolute p-2">
-                            <i class="far fa-image"></i>
-                        </a>
-
-                        <div class="sup-title text-uppercase text-grey text-center mb-2">Travelling</div>
-
-
-                        <div class="title text-uppercase text-center mb-2">Travel besT Adventure</div>
-
-                        <div class="date text-uppercase text-grey text-center mb-4">
-                            <time>January 25, 2016</time>
-                        </div>
-                        <div class="description ">
-                            Lorem ipsum doloirs sit amet, csatetur adipisicin, sed does eiusmod tehampor incididunt uts
-                            laboasre et dolhvaliqua. Ut enim vem, nostrasuaations ullamco labiosi ut saaliquip exoi asea
-                            comoodo
-                            tehampor incididunt uts laboasre etsa
-                            iusmod tehampor incididunt uts havlaboasre et dolhvaliqua. Ut enim vem,
-                            choice is the have great work.
-                        </div>
-
-                        <div class="d-flex justify-content-center mt-4">
-                            <a href="#" class="btn btn-primary rounded-0 "> READ MORE</a>
-                        </div>
-
-                    </div>
-
-                    <div class="card-bottom row justify-content-md-around p-3">
-                        <div class="col d-flex align-items-center">
-                            <a href="#"><i class=" mr-2 fas fa-comments"></i></a>
-                            <span class="text-uppercase text-grey comments">No Comment</span>
-                            <nav class="like_count">
-                                <span class="like-counter"><i></i></span>
-                                <span class="click-text">Like</span><span id="clicks"></span>
-                            </nav>
-                        </div>
-
-
-
-                        <div class="col d-flex align-items-center justify-content-center">
-                            <span class="text-uppercase text-grey mr-2">avarage : 5%</span>
-                            <ul class="stars d-flex list-unstyled m-0">
-                                <li><i class="fas fa-star"></i></li>
-                                <li><i class="fas fa-star"></i></li>
-                                <li><i class="fas fa-star"></i></li>
-                                <li><i class="fas fa-star"></i></li>
-                                <li><i class="fas fa-star"></i></li>
-
-                            </ul>
-                        </div>
-
-
-
-                        <div class="col d-flex justify-content-center justify-content-xl-end">
-                            <div class=" social-list">
-                                <a href="#"><i class="fab fa-dribbble"></i></a>
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                        <div class="col-12 col-lg-8 contact_description">
+                            <h2>
+                                Contact information
+                            </h2>
+                            <p>
+                                In case you some aquestions popped in your’s mind, FeIn case you some aquestions popped
+                                in your’el email or even visit us.
+                            </p>
+                            <div class="social_info">
+                                <i class="fas fa-home"></i>
+                                <span>
+                                Address: 123 Street Name, City Name, United States.
+                            </span>
                             </div>
+                            <div class="social_info">
+                                <i class="far fa-envelope"></i>
+                                <span>
+                                Email: info@lifestyle.com
+                            </span>
+                            </div>
+                            <div class="social_info">
+                                <i class="fas fa-globe-americas"></i>
+                                <span>
+                                www.lifestyle.com
+                            </span>
+                            </div>
+
                         </div>
                     </div>
+                </div>
 
-                </article>
             </div>
         </div>
+        <div class="row">
+            <div class="col-9 contact_form ">
+                <form action="" method="" class="tab_panel_content">
+
+                    <div class="form-group  input input--nariko">
+                        <input type="text" class=" input__field input__field--nariko" id="username" placeholder="">
+                        <label class="input__label input__label--nariko" for="username">
+                            <span class="input__label-content input__label-content--nariko">your Name</span>
+                        </label>
+                    </div>
+
+                    <div class="form-group  input input--nariko">
+                        <input type="email" class=" input__field input__field--nariko" id="email" placeholder="">
+                        <label class="input__label input__label--nariko" for="email">
+                            <span class="input__label-content input__label-content--nariko">your email address</span>
+                        </label>
+                    </div>
+
+                    <div class="form-group  input input--nariko">
+                        <input type="text" class="input__field input__field--nariko" id="website" placeholder="">
+                        <label class="input__label input__label--nariko" for="website">
+                            <span class="input__label-content input__label-content--nariko">website address</span>
+                        </label>
+                    </div>
+
+                    <div class="form-group input input--nariko form_comment">
+
+                        <input type="text" class="input__field input__field--nariko" id="comment" placeholder="">
+
+                        <label class="input__label input__label--nariko " for="comment">
+                            <span class="input__label-content input__label-content--nariko">please write your message here</span>
+                        </label>
+
+
+                        <!--<textarea placeholder="please write a message here">-->
+
+                        <!--</textarea>-->
+                    </div>
+
+                </form>
+                <div class="mail">
+
+                    <button class="mail-btn" type="submit">send</button>
+                </div>
+
+
+            </div>
+
+        </div>
     </div>
+
 </section>
+
 
 
 <footer>
@@ -344,13 +305,10 @@
 
 </footer>
 
+<!-- Optional JavaScript -->
 <!-- jQuery , then Bootstrap JS -->
 <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
-
-<!-- Wow JS -->
-<script src="js/wow.js"></script>
-<!---->
-
+<script src="js/send.js"></script>
 <script src="js/scripts.js"></script>
 
 
