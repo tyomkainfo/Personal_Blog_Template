@@ -214,9 +214,6 @@ $hind: 'Hind', sans-serif;
 
 .bottom_post {
   padding-top: 20px;
-  h4 {
-    color: $default-dark-color;
-  }
   .jan {
     border-bottom: 1px solid $default-border-color;
     align-items: center;
@@ -276,4 +273,7 @@ $hind: 'Hind', sans-serif;
     height: 60px;
     background: $default-light-grey-background;
   }
+}
+@media  (max-width: 1199px){
+
 }
