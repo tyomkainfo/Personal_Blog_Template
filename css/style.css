@@ -1,4 +1,5 @@
 @import url(animate.css);
+@import url(animate.css);
 body {
   padding: 0;
   margin: 0; }
@@ -419,8 +420,6 @@ body {
       font-size: 13px; }
     .blog.blog-detailed .stars.is-active {
       opacity: 1; }
-  .blog.blog-detailed .card-columns {
-    column-count: 1; }
   .blog .btn_resize-cards {
     height: 42px;
     background-color: #212121;
@@ -877,6 +876,9 @@ footer {
   text-align: left;
   /* background:#2980b9;*/
   font-family: 'Open Sans', sans-serif; }
+  @media screen and (max-width: 768px) {
+    .mail {
+      padding-bottom: 30px; } }
 
 .mail-btn {
   border: solid 2px #8E9191;
@@ -1093,6 +1095,16 @@ footer {
     opacity: 0;
     -webkit-transform: rotateX(0) rotateZ(0) translateX(1000%) translateY(0) scale(1);
     transform: rotateX(0) rotateZ(0) translateX(1000%) translateY(0) scale(1); } }
+/********************************/
+@media screen and (max-width: 768px) {
+  .news_block .latest-post {
+    max-width: 100%; }
+
+  .text-aside {
+    margin: auto; }
+
+  .icons {
+    text-align: center; } }
 @font-face {
   font-family: 'Hindsemibold';
   src: url("../fonts/Hindsemibold.eot");
@@ -1811,9 +1823,6 @@ body {
   .carousel img {
     max-width: 300px; }
 
-.carousel-control-next {
-  margin-right: 50px; }
-
 .facebook-img img {
   max-width: 100%; }
 
@@ -1831,7 +1840,7 @@ body {
   display: block;
   padding-bottom: 5px; }
 
-.fa-search {
+.search {
   position: absolute;
   top: 0;
   font-size: 25px;
@@ -1845,14 +1854,12 @@ body {
 
 .form-control {
   height: 50px;
-  background-color: #f9f9fb;
-  width: 250px; }
+  background-color: #f9f9fb; }
 
 .banner {
   margin-top: 40px; }
 
 .catagories {
-  width: 300px;
   margin: auto; }
   .catagories h4 {
     text-align: center;
@@ -1862,36 +1869,35 @@ body {
     text-transform: uppercase;
     border: 1px  gainsboro;
     padding-top: 30px;
-    padding-bottom: 19px;
-    width: 300px; }
+    padding-bottom: 19px; }
 
 .form-group {
-  width: 250px;
+  width: 100%;
   outline: none; }
 
 .form-inline {
+  width: 100%;
   padding-bottom: 40px; }
 
-.fa-search {
+.search {
   position: absolute;
   top: 0;
   font-size: 25px;
-  color: black;
+  color: white;
   border: 1px solid;
-  width: 50px;
-  height: 50px;
+  width: 20px;
+  height: 20px;
   margin: auto;
   text-align: center;
   padding-top: 15px; }
-  .fa-search:hover {
+  .search:hover {
     color: white;
     background-color: #212121;
     transition: 1.5s; }
 
 .form-control {
   height: 50px;
-  background-color: #f9f9fb;
-  width: 250px; }
+  background-color: #f9f9fb; }
 
 .banner {
   margin-top: 40px; }
@@ -1904,8 +1910,7 @@ body {
   text-transform: uppercase;
   border: 1px  gainsboro;
   padding-top: 30px;
-  padding-bottom: 19px;
-  width: 300px; }
+  padding-bottom: 19px; }
   .catagories li span {
     float: right; }
 
